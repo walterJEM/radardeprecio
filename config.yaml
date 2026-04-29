@@ -1,0 +1,10 @@
+scraper:
+  delay_seconds: 2
+  headless: true
+  timeout: 30000
+
+sites:
+  - name: "Producto de prueba"
+    url: "https://www.mercadolibre.com.pe/apple-iphone-17-256-gb-lavanda-distribuidor-autorizado/p/MPE1055308835"
+    site: "mercadolibre"
+    active: true
