@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
-from db.models import get_price_history, get_all_products
 
+from db.models import get_price_history_by_id, get_all_products
 app = FastAPI(title="PriceRadar API", version="1.0")
 
 @app.get("/")

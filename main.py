@@ -1,6 +1,7 @@
 from config import get_active_urls, get_scraper_settings
 from scraper.sites.mercadolibre import scrape_product
 from db.models import save_price, init_db, detect_price_drop
+
 import time
 
 SCRAPERS = {
