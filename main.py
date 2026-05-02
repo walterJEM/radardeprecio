@@ -1,11 +1,13 @@
 from config import get_active_urls, get_scraper_settings
 from scraper.sites.mercadolibre import scrape_product
 from db.models import save_price, init_db, detect_price_drop
+from scraper.sites.falabella import scrape_product as scrape_falabella
 
 import time
 
 SCRAPERS = {
     "mercadolibre": scrape_product,
+    "falabella": scrape_falabella,
 }
 
 if __name__ == "__main__":

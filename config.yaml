@@ -1,10 +1,16 @@
 scraper:
   delay_seconds: 2
-  headless: true
-  timeout: 30000
+  headless: false
+  timeout: 60000
 
 sites:
-  - name: "Producto de prueba"
+  - name: "iPhone 17 256GB Lavanda"
     url: "https://www.mercadolibre.com.pe/apple-iphone-17-256-gb-lavanda-distribuidor-autorizado/p/MPE1055308835"
     site: "mercadolibre"
     active: true
+
+  - name: "iPhone 17 Pro 256GB"
+    url: "https://www.falabella.com.pe/falabella-pe/product/prod18580271/iphone-17-pro-256gb/21283550"
+    site: "falabella"
+    active: true
+
